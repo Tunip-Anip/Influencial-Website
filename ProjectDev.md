@@ -23,6 +23,11 @@
 
 # Converge
 
+### Effort x Impact Matrix
 <img src="https://github.com/Tunip-Anip/Influencial-Website/blob/main/Images/Plane.png" alt="Effort,Impact Plane">
+
+### Peer Idea Evaluation w/ William
 <img src="https://github.com/Tunip-Anip/Influencial-Website/blob/main/Images/First%20Idea.png" alt="Idea 1 Peer Evaluation">
 <img src="https://github.com/Tunip-Anip/Influencial-Website/blob/main/Images/Second%20Idea.png" alt="Idea 2 Peer Evaluation">
+
+### Converge Evaluation
