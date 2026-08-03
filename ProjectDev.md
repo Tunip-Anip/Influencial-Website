@@ -11,11 +11,11 @@
 | **Idea Name**                 | **What It Does**                                                                        | **Influence it Explores**                                        | **Who It Helps**                                                          |
 | ----------------------------- | --------------------------------------------------------------------------------------- | ---------------------------------------------------------------- | ------------------------------------------------------------------------- |
 | Positive Affirmations Website | Provide Positive Affirmations                                                           | Self Doubt, emotional instability with person influences         | Everyone                                                                  |
-| Colour palette Generator      | Generates a complementary colour palette                                                | Social presentation and conformati within society                | People with indecisive colour choices                                     |
-| Art scroller website          | Gives creative art pieces                                                               | Tehcnological influence on creativity and inspiration            | People who need inspiration on artworks or other creative needs           |
-| CLUELESS Codes                | Provides information on symbology/ helps people explore different relgions and cultures | Misinformation throguh lack of knowledge and interest in beleifs | People with an interest to learn                                          |
-| Blog Tutorial Website         | Provides information with a tutorial made to the public                                 | Knowledge throguh technological information on the web           | people in an interest to learn in a specific subject                      |
-| Style Creator                 | Gives a combination of clothes and ways to style them with each other                   | Social presentation and fear of being presented out of order     | People who are self concious with how they are perceived by everyone else |             
+| Colour palette Generator      | Generates a complementary colour palette                                                | Social presentation and conformation within society                | People with indecisive colour choices                                     |
+| Art scroller website          | Gives creative art pieces                                                               | Technological influence on creativity and inspiration            | People who need inspiration on artworks or other creative needs           |
+| CLUELESS Codes                | Provides information on symbology/ helps people explore different religions and cultures | Misinformation through lack of knowledge and interest in beliefs | People with an interest to learn                                          |
+| Blog Tutorial Website         | Provides information with a tutorial made to the public                                 | Knowledge through technological information on the web           | people in an interest to learn in a specific subject                      |
+| Style Creator                 | Gives a combination of clothes and ways to style them with each other                   | Social presentation and fear of being presented out of order     | People who are self conscious with how they are perceived by everyone else |             
 
 
 
@@ -31,3 +31,32 @@
 <img src="https://github.com/Tunip-Anip/Influencial-Website/blob/main/Images/Second%20Idea.png" alt="Idea 2 Peer Evaluation">
 
 ### Converge Evaluation
+
+From my Effort impact matrix it was clear that the style editor, it being high effort and medium impact was a bad choice. Since the Clueless codes website is already existent it has the lowest effort possible and it does have a medium to high impact but the integrity of the task would be compromised if I used previously made. The daily positive affirmations website also has low impact but medium effort so it was crossed out. And the Blog has too high an effort to provide for its impact. With this two results were left, the colour palette generator and the Art scroller website. The Art scroller website had medium effort but high impact making it a feasible and positive project to create. The Colour palette generator while having a medium impact does have low effort so it was also another feasible project for creation.
+
+The most decisive factor on the SWOT analysis would be the threats, where spam was a common factor of both of the finalists, the art scroller website has 1 extra threat for image moderation. The Art Scroller Website and the Colour Palette Gen have similar Strengths while the Colour palette has less weaknesses but also has less opportunities. Overall the Colour Palette Generator has a larger scope of success than the Art Scroller Website.
+
+# Design Brief
+Design, develop, and document a web application that explores the theme of influence and aims to have a positive social impact. Your app should make users think, feel, or act differently in a way that contributes to change — big or small.
+
+You will brainstorm ideas, evaluate options, design your user interface, and build your app using web technologies (HTML, CSS, JavaScript, Flask). Your final product should demonstrate creative thinking, technical skills, and an understanding of influence in society.
+
+Requirements
+Your web app should:
+
+Respond clearly to the theme "Influence"
+
+Aim to have a positive social impact (local, national or global)
+
+Be interactive in some way (form, buttons, quiz, media, etc.)
+
+Include a clear message or call to action
+
+Use multimedia elements (e.g. text, images, audio, video, animation)
+
+Be designed with accessibility and user experience in mind
+
+Suggestions Before We Start
+Wicked Problems: You might choose to focus on some broader societal issues such as promoting digital wellbeing, challenging stereotypes, encouraging environmental action, raising awareness about misinformation or celebrating cultural diversity.
+
+Localised Issues: You could also go a bit more local and focus on peer influence, community volunteering, student voice, school culture, eco choices at GHS or highlighting local legends.
