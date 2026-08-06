@@ -60,3 +60,11 @@ Suggestions Before We Start
 Wicked Problems: You might choose to focus on some broader societal issues such as promoting digital wellbeing, challenging stereotypes, encouraging environmental action, raising awareness about misinformation or celebrating cultural diversity.
 
 Localised Issues: You could also go a bit more local and focus on peer influence, community volunteering, student voice, school culture, eco choices at GHS or highlighting local legends.
+
+# Requirements Outline:
+## Functional Requirements
+
+* Needs to run smoothly with minimised lag
+* 
+* 
+## Non-Functional Requirements
