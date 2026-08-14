@@ -109,7 +109,7 @@ The application will provide an assortment of complementary colours depending on
 
 # Researching and Planning
 ## Explore Existing Ideas
-
+<img src="https://github.com/Tunip-Anip/Influencial-Website/blob/main/Images/PMI.png" alt="PMI">
 
 ## Secondary Research
 
