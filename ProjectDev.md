@@ -98,13 +98,14 @@ The application will provide an assortment of complementary colours depending on
 ## Functional Requirements
 
 
-* Needs to run smoothly with minimised lag
-* Needs to choose colours that look well together
-* The UI needs to be readable and clean providing a modern tone.
+* Website should save colours if clicked off of
+* People can create color palettes
+* Needs to produce 2 ore more colours to create a palette
 ## Non-Functional Requirements
 * Can have different themes for the website
 * Can make specific themes for colour palettes, such as 'Beach' or 'Winter'
 * Can store previous colour palettes while randomising if the user needs to go back
+* Needs to run smoothly with minimised lag
 
 
 # Researching and Planning
@@ -112,6 +113,12 @@ The application will provide an assortment of complementary colours depending on
 <img src="https://github.com/Tunip-Anip/Influencial-Website/blob/main/Images/PMI.png" alt="PMI">
 
 ## Secondary Research
+* https://www.kolenda.io/guides/color#color-preferences
+* https://thesirenlppacs.com/5229/column-grid/paint-colors-and-why-youre-so-indecisive-about-them/
+
+Indecisiveness while choosing colours is already a large issue within society,and most of all choosing  colours is enabled by the user's personal choice. human choice to feel attracted to certain colours is theorised to stem from the early need to perceive threats in the wild. As Nick Kolenda outlines, to choose colours you need an understanding of what theme your project requires. This understanding in the theme limits the range of colours which would be useful for each scenario. This thematicness of colors originates from our initial observation of these colours such as the sun producing light and heat being related to colours such as orange or yellow making them feel warm on their own.
+
+Grace Davis provides a supporting perspective that colours are based on their surroundings, just as green and pink have the theme of a flowering plant their pairing in large objects takes away from the aesthetic values of the actual colours, creating a jarring colour scheme. The struggle to choose colours is very informed so the need for a way to make a colour palette is needed.
 
 
 ## Primary Research
