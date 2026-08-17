@@ -122,8 +122,14 @@ Grace Davis provides a supporting perspective that colours are based on their su
 
 
 ## Primary Research
-<img src="https://github.com/Tunip-Anip/Influencial-Website/blob/main/Images/Graph1.png" alt="PMI">
-<img src="https://github.com/Tunip-Anip/Influencial-Website/blob/main/Images/Graph2.png" alt="PMI">
+<img src="https://github.com/Tunip-Anip/Influencial-Website/blob/main/Images/Graph1.png" alt="Graph">
+
+As seen in the graph the choice of colour isnt a very big problem within the local area. This would decrease the value of a colour pallette generator since the users would already have the ability to create their own palettes with creatively curated colours. This would mean i would need to add more features to create a larger range of influence if the project needs to bypass a threshold of innovation.
+
+
+<img src="https://github.com/Tunip-Anip/Influencial-Website/blob/main/Images/Graph2.png" alt="Graph">
+
+From thi graph it supports the website slightly more as some people find themselves in situations where they need colour to choose a colour. This would benefit the cause of the colour palette geerator and help it gain traction to grow further. This sustains the audience of the website and proves that it may be a capable website in the future.
 
 # Producing and Implementing
 
