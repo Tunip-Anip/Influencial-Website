@@ -122,7 +122,8 @@ Grace Davis provides a supporting perspective that colours are based on their su
 
 
 ## Primary Research
-
+<img src="https://github.com/Tunip-Anip/Influencial-Website/blob/main/Images/Graph1.png" alt="PMI">
+<img src="https://github.com/Tunip-Anip/Influencial-Website/blob/main/Images/Graph2.png" alt="PMI">
 
 # Producing and Implementing
 
