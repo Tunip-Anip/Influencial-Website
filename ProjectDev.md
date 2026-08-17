@@ -131,6 +131,11 @@ As seen in the graph the choice of colour isnt a very big problem within the loc
 
 From thi graph it supports the website slightly more as some people find themselves in situations where they need colour to choose a colour. This would benefit the cause of the colour palette geerator and help it gain traction to grow further. This sustains the audience of the website and proves that it may be a capable website in the future.
 
+
+## UI / UX Design
+
+## Prototype
+
 # Producing and Implementing
 
 
