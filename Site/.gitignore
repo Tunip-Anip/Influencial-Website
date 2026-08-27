@@ -1,0 +1,19 @@
+# Python cache
+__pycache__/
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Environments
+.env
+.envrc
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# MacOS
+*.DS_Store

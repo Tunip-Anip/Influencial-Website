@@ -1,0 +1,50 @@
+<!doctype html>
+
+<html>
+    <head>
+        {% if title %}
+        <title>{{ title }} - ColoGen</title>
+        {% else %}
+        <title>Welcome to ColoGen</title>
+        {% endif %}
+         <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+        <!-- The website JavaScript file -->
+        <script src="script.js" defer></script>
+
+    </head>
+    <link
+    rel="icon"
+    href=""
+    type="image/x-icon"
+  />
+    <body>
+        <div class="base">
+            ColoGen:
+            
+            <a href="{{ url_for('index') }}">Home</a>
+            {% if current_user.is_anonymous %}
+            <a href="{{ url_for('login') }}">Login</a>
+            {% else %}
+            <a href="{{ url_for('user', username=current_user.username) }}">Profile</a>
+            <a href="{{ url_for('logout') }}">Logout</a>
+            
+            <div id="wcb" class="carbonbadge"></div>
+            <script src="https://unpkg.com/website-carbon-badges@1.1.3/b.min.js" defer></script>
+
+            {% endif %}
+        </div>    
+        <hr>
+        {% with messages = get_flashed_messages() %}
+        {% if messages %}
+        <ul>
+            {% for message in messages %}
+            <li>{{ message }}</li>
+            {% endfor %}
+        </ul>
+        {% endif %}
+        {% endwith %}
+        {% block content %}{% endblock %} 
+        
+    </body>
+</html>
