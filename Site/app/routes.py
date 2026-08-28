@@ -97,7 +97,7 @@ def edit_profile():
     elif request.method == 'GET':
         form.username.data = current_user.username
         form.about_me.data = current_user.about_me
-        current_user.profile = form.profile.data
+        form.profile.data = current_user.profile
     return render_template('edit_profile.html', title='Edit Profile',
                            form=form)
 
