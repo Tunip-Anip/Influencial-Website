@@ -9,7 +9,7 @@
          <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 
         <!-- The website JavaScript file -->
-        <script src="script.js" defer></script>
+        <script src="{{url_for('static', filename='script.js')}}"></script>
 
     </head>
     <link
@@ -22,13 +22,14 @@
 
         {% block content %}
             <h1>Hi, {{ current_user.username }}!</h1>
-            {% for post in posts %}
-            <div>
-                <p>
-                    {{ post.author.username }} says: <b>{{ post.body }}</b>
-                </p>
+            
+            <input type="range" min="1" max="10" value="5" class="slider"
+                 id="ColorRg" title="Number of Colors"
+                 oninput="Getrange()"> 
+            <p1 class="ColorOP">f</p1>
+            <div class="colorgen" style="background-color: aliceblue;" onclick="changecol()">
+                
             </div>
-            {% endfor %}
         {% endblock %}
     </body>
 </html>

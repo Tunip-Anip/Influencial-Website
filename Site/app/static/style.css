@@ -6,6 +6,18 @@
   src: url(Fonts/MPLUSRounded1c-ExtraBold.ttf);
 }
 
-.base{
+.base {
     font-family:cfont;
+}
+
+.colorgen {
+    background-color: aliceblue;
+    height: 43%;
+    width: 50%;
+    position: fixed;
+    z-index: -9;
+    top: 40vw;
+    overflow-x: hidden;
+    padding-top: 20px;
+
 }
