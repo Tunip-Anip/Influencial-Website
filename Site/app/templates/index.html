@@ -26,9 +26,28 @@
             <input type="range" min="1" max="10" value="5" class="slider"
                  id="ColorRg" title="Number of Colors"
                  oninput="Getrange()"> 
-            <p1 class="ColorOP">f</p1>
-            <div class="colorgen" style="background-color: aliceblue;" onclick="changecol()">
-                
+            <p1 id="ColorOP">f</p1>
+            <script>
+            function Getrange(){
+                document.getElementById("ColorOP").innerHTML = document.getElementById("ColorRg").value
+                }
+            </script>
+
+
+
+            <div class="colorgen">
+                <button id="colorgen" style="background-color: rgb(32, 34, 36); width: 10vw; height:10vw;" onclick="changecol()">
+                    <script>
+                            function changecol(){
+                                randcolor = randcol()
+                                document.getElementById("colorgen").style.backgroundColor = randcolor
+                            }
+                            function randcol(){
+                                var o = Math.round, r = Math.random, s = 255;
+                                return 'rgba(' + o(r()*s) + ',' + o(r()*s) + ',' + o(r()*s) + ',' + r().toFixed(1) + ')';
+                            }
+                    </script>
+              </button>  
             </div>
         {% endblock %}
     </body>

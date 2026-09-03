@@ -3,7 +3,16 @@
 {% block content %}
         <table>
         <tr valign="top">
-            <td><img src="{{ user.profile }}"></td>
+            <td><img id="imagep" src="{{ user.profile }}" onload="checksize()" width="13">
+            <script>
+                function checksize(){
+                    let imagef = document.getElementById("imagep").style.width
+                    if (imagef > 150)
+                    {
+                        document.getElementById("imagep").style.width = 150
+                    }
+                }
+            </script></td>
             <td>
                 <h1>User: {{ user.username }}</h1>
                 {% if user.about_me %}<p>{{ user.about_me }}</p>{% endif %}
