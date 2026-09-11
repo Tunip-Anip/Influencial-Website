@@ -30,40 +30,43 @@
             <script>
             function Getrange(){
                 document.getElementById("ColorOP").innerHTML = document.getElementById("ColorRg").value
+                console.log(document.getElementById("ColorRg").value)
                 }
             </script>
 
 
 
             <div class="colorgen" style="text-align: center; width: 100%;top: 45vh;" >
+
                 <button id="colorgen" style="background-color: rgb(32, 34, 36); width: 10vw; height:10vw;border: none;outline: none;" onclick="changecol()">
                     <p1 id="hexa" style="background-blend-mode:soft-light; text-shadow: 0 0 4px #000000, 0 0 5px #000000">HEX</p1>
                     <script>
-                            function changecol(){
-                                let randHex = randcolHex()
+                        function changecol(){
+                            let randHex = randcolHex()
 
-                                document.getElementById("colorgen").style.backgroundColor = randHex
-                                document.getElementById("hexa").innerHTML = randHex
-                                document.getElementById("hexa").style.color = '#ffffff'
-                                console.log(randRGB)
-                            }
-                            function componentToHex(c) {
-                                var hex = c.toString(16);
-                                return hex.length == 1 ? "0" + hex : hex;
-                            }
-                            function rgbToHex(r, g, b) {
-                                return "#" + componentToHex(r) + componentToHex(g) + componentToHex(b);
-                            }
+                            document.getElementById("colorgen").style.backgroundColor = randHex
+                            document.getElementById("hexa").innerHTML = randHex
+                            document.getElementById("hexa").style.color = '#ffffff'
+                            console.log(randRGB)
+                        }
+                        function componentToHex(c) {
+                            var hex = c.toString(16);
+                            return hex.length == 1 ? "0" + hex : hex;
+                        }
+                        function rgbToHex(r, g, b) {
+                            return "#" + componentToHex(r) + componentToHex(g) + componentToHex(b);
+                        }
 
-                            function randcolHex(){
-                                var o = Math.round, r = Math.random, s = 255;
-                                return(rgbToHex(o(r()*s),o(r()*s),o(r()*s)))
-                            }
+                        function randcolHex(){
+                            var o = Math.round, r = Math.random, s = 255;
+                            return(rgbToHex(o(r()*s),o(r()*s),o(r()*s)))
+                        }
 
                     </script>
-                    
-              </button>
-              
+                </button>
+                
+                
+                
             </div>
             
         {% endblock %}
