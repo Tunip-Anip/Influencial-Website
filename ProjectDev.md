@@ -139,4 +139,51 @@ From thi graph it supports the website slightly more as some people find themsel
 # Producing and Implementing
 
 
+## Week 1 Evaluation:
+I have used the base from the Flask Web tutorials to add to the data portion of the project.
+Alterations to this code are the 
+```
+profile =  TextAreaField('Profile Picture',validators=[DataRequired()])
+```
+and other Profile picture data storing.
+In Html I added the actual colour change button and also made a slider whilst giving the pages connectivity with css
 
+### HTML
+```
+ {% extends "base.html" %}
+
+        {% block content %}
+            <h1>Hi, {{ current_user.username }}!</h1>
+            
+            <input type="range" min="1" max="10" value="5" class="slider"
+                 id="ColorRg" title="Number of Colors"
+                 oninput="Getrange()"> 
+            <p1 id="ColorOP">f</p1>
+            <script>
+            function Getrange(){
+                document.getElementById("ColorOP").innerHTML = document.getElementById("ColorRg").value
+                }
+            </script>
+
+
+
+            <div class="colorgen">
+                <button id="colorgen" style="background-color: rgb(32, 34, 36); width: 10vw; height:10vw;" onclick="changecol()">
+                    <script>
+                            function changecol(){
+                                randcolor = randcol()
+                                document.getElementById("colorgen").style.backgroundColor = randcolor
+                            }
+                            function randcol(){
+                                var o = Math.round, r = Math.random, s = 255;
+                                return 'rgba(' + o(r()*s) + ',' + o(r()*s) + ',' + o(r()*s) + ',' + r().toFixed(1) + ')';
+```
+This sets up the base for the entire program, with our main functions. That being the random colour generator slider and the user profile page.
+From this the setup for the entire program can be constructed with slight diffuculty and the functionality can improve.
+
+### Peer FeedBack
+"The website is very functional but it's not nice to look at and its kinda confusing to navigate" 
+
+The common trend among peer review is thatthe website has lackluster aesthetics. This is very true as I haven't spent much time on the visual aspects of the project so further work on the CSS will be needed.
+
+Despite this the project is seeming to have its initial buildings in place for future improvement and additions.

@@ -3,11 +3,13 @@
 }
 @font-face {
   font-family:cfont;
-  src: url(Fonts/MPLUSRounded1c-ExtraBold.ttf);
+  src: url(Fonts/Comic\ Sans\ MS\ 400.ttf);
 }
 
 .base {
     font-family:cfont;
+    font-weight: bolder;
+
 }
 
 .colorgen {
@@ -20,4 +22,9 @@
     overflow-x: hidden;
     padding-top: 20px;
 
+}
+
+#hexa{
+    font-family: cfont;
+    font-weight: bolder;
 }
