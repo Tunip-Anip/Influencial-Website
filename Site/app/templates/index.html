@@ -1,6 +1,6 @@
 <!doctype html>
 <html>
-    <head>
+    <head >
         {% if title %}
         <title>{{ title }} - ColoGen</title>
         {% else %}
@@ -21,30 +21,38 @@
         {% extends "base.html" %}
 
         {% block content %}
-            <h1>Hi, {{ current_user.username }}!</h1>
-            
-            <input type="range" min="1" max="10" value="5" class="slider"
-                 id="ColorRg" title="Number of Colors"
-                 oninput="Getrange()"> 
-            <p1 id="ColorOP">f</p1>
+            <h1 class="base" style="text-align: center;">Hi, {{ current_user.username }}!</h1>
+            <div style="text-align: center; margin-top:10vh"; display:block>
+            <input type="range" min="1" max="9" value="5" class="slider" id="ColorRg" title="Number of Colors" oninput="Getrange()" onload="Getrange()" > 
+            </div>
+            <p style="text-align:center;margin-top:1vh;font-size:8vh;font-family:cfont" id="ColorOP">5</p>
             <script>
             function Getrange(){
                 document.getElementById("ColorOP").innerHTML = document.getElementById("ColorRg").value
                 console.log(document.getElementById("ColorRg").value)
+                amount1()
+                amount2()
+                amount3()
+                amount4()
+                amount5()
+                amount6()
+                amount7()
+                amount8()
                 }
             </script>
 
 
 
-            <div class="colorgen" style="text-align: center; width: 100%;top: 45vh;"onclick="changecol()">
-                <div  onclick="changecol1()" >
-                <div  onclick="changecol2()" >
-                <div  onclick="changecol3()" >
-                <div  onclick="changecol4()" >
-                <div  onclick="changecol5()" >
-                <div  onclick="changecol6()" >
-                <div  onclick="changecol7()" >
-                <div  onclick="changecol8()" >
+            <div class="colorgen" style="text-align: center; width: 100%;top: 45vh;">
+                <div  onclick="changecol()" onload="changecol()" >
+                <div  onclick="changecol1()" onload="changecol1()" >
+                <div  onclick="changecol2()" onload="changecol2()">
+                <div  onclick="changecol3()" onload="changecol3()">
+                <div  onclick="changecol4()" onload="changecol4()">
+                <div  onclick="changecol5()" onload="changecol5()">
+                <div  onclick="changecol6()" onload="changecol6()">
+                <div  onclick="changecol7()" onload="changecol7()">
+                <div  onclick="changecol8()" onload="changecol8()">
                     <button id="colorgen" style="background-color: rgb(32, 34, 36); width: 10vw; height:10vw;border: none;outline: none;" >
                         <p1 id="hexa" class="hexa" style="background-blend-mode:soft-light; text-shadow: 0 0 4px #000000, 0 0 5px #000000">HEX</p1>
                         <script>
@@ -80,7 +88,10 @@
                         <script>
                             function amount1(){
                                 if (document.getElementById("ColorRg").value < 2){
-                                    document.getElementById("colorgen").style.display = 'none'
+                                    document.getElementById("colorgen1").style.display = 'none'
+                                }
+                                else{
+                                    document.getElementById("colorgen1").style.display = ''
                                 }
                             }
                             function changecol1(){
@@ -113,6 +124,14 @@
                     <button id="colorgen2" style="background-color: rgb(32, 34, 36); width: 10vw; height:10vw;border: none;outline: none;" >
                         <p1 id="hexa2" class="hexa" style="background-blend-mode:soft-light; text-shadow: 0 0 4px #000000, 0 0 5px #000000">HEX</p1>
                         <script>
+                            function amount2(){
+                                if (document.getElementById("ColorRg").value < 3){
+                                    document.getElementById("colorgen2").style.display = 'none'
+                                }
+                                else{
+                                    document.getElementById("colorgen2").style.display = ''
+                                }
+                            }
                             function changecol2(){
                                 let randHex = randcolHex2()
 
@@ -141,6 +160,14 @@
                     <button id="colorgen3" style="background-color: rgb(32, 34, 36); width: 10vw; height:10vw;border: none;outline: none;" >
                         <p1 id="hexa3" class="hexa" style="background-blend-mode:soft-light; text-shadow: 0 0 4px #000000, 0 0 5px #000000">HEX</p1>
                         <script>
+                            function amount3(){
+                                if (document.getElementById("ColorRg").value < 4){
+                                    document.getElementById("colorgen3").style.display = 'none'
+                                }
+                                else{
+                                    document.getElementById("colorgen3").style.display = ''
+                                }
+                            }
                             function changecol3(){
                                 let randHex = randcolHex3()
 
@@ -169,6 +196,14 @@
                     <button id="colorgen4" style="background-color: rgb(32, 34, 36); width: 10vw; height:10vw;border: none;outline: none;" >
                         <p1 id="hexa4" class="hexa" style="background-blend-mode:soft-light; text-shadow: 0 0 4px #000000, 0 0 5px #000000">HEX</p1>
                         <script>
+                            function amount4(){
+                                if (document.getElementById("ColorRg").value < 5){
+                                    document.getElementById("colorgen4").style.display = 'none'
+                                }
+                                else{
+                                    document.getElementById("colorgen4").style.display = ''
+                                }
+                            }
                             function changecol4(){
                                 let randHex = randcolHex4()
 
@@ -197,6 +232,14 @@
                     <button id="colorgen5" style="background-color: rgb(32, 34, 36); width: 10vw; height:10vw;border: none;outline: none;" >
                         <p1 id="hexa5" class="hexa" style="background-blend-mode:soft-light; text-shadow: 0 0 4px #000000, 0 0 5px #000000">HEX</p1>
                         <script>
+                            function amount5(){
+                                if (document.getElementById("ColorRg").value < 6){
+                                    document.getElementById("colorgen5").style.display = 'none'
+                                }
+                                else{
+                                    document.getElementById("colorgen5").style.display = ''
+                                }
+                            }
                             function changecol5(){
                                 let randHex = randcolHex5()
 
@@ -225,6 +268,14 @@
                     <button id="colorgen6" style="background-color: rgb(32, 34, 36); width: 10vw; height:10vw;border: none;outline: none;" >
                         <p1 id="hexa6" class="hexa" style="background-blend-mode:soft-light; text-shadow: 0 0 4px #000000, 0 0 5px #000000">HEX</p1>
                         <script>
+                            function amount6(){
+                                if (document.getElementById("ColorRg").value < 7){
+                                    document.getElementById("colorgen6").style.display = 'none'
+                                }
+                                else{
+                                    document.getElementById("colorgen6").style.display = ''
+                                }
+                            }
                             function changecol6(){
                                 let randHex = randcolHex6()
 
@@ -253,6 +304,14 @@
                     <button id="colorgen7" style="background-color: rgb(32, 34, 36); width: 10vw; height:10vw;border: none;outline: none;" >
                         <p1 id="hexa7" class="hexa" style="background-blend-mode:soft-light; text-shadow: 0 0 4px #000000, 0 0 5px #000000">HEX</p1>
                         <script>
+                            function amount7(){
+                                if (document.getElementById("ColorRg").value < 8){
+                                    document.getElementById("colorgen7").style.display = 'none'
+                                }
+                                else{
+                                    document.getElementById("colorgen7").style.display = ''
+                                }
+                            }
                             function changecol7(){
                                 let randHex = randcolHex7()
 
@@ -281,6 +340,14 @@
                     <button id="colorgen8" style="background-color: rgb(32, 34, 36); width: 10vw; height:10vw;border: none;outline: none;" >
                         <p1 id="hexa8" class="hexa" style="background-blend-mode:soft-light; text-shadow: 0 0 4px #000000, 0 0 5px #000000">HEX</p1>
                         <script>
+                            function amount8(){
+                                if (document.getElementById("ColorRg").value < 9){
+                                    document.getElementById("colorgen8").style.display = 'none'
+                                }
+                                else{
+                                    document.getElementById("colorgen8").style.display = ''
+                                }
+                            }
                             function changecol8(){
                                 let randHex = randcolHex8()
 
@@ -306,6 +373,7 @@
                     </button>
 
                     
+                </div>
                 </div>
                 </div>
                 </div>

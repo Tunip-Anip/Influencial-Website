@@ -9,7 +9,17 @@
 .base {
     font-family:cfont;
     font-weight: bolder;
+    font-size: 200%;
+    
 
+}
+
+.login{
+    text-align: center;
+}
+
+.box{
+    height: 1px;
 }
 
 .colorgen {
@@ -22,16 +32,63 @@
     overflow-x: hidden;
     padding-top: 20px;
     overflow-x: hidden;
+    transition: 300ms ease;
+
+
+
+}
+.colorgen:hover{
+    
+    transition-duration: 300ms;
+    filter:opacity(80%)
 
 
 }
 
+.slider {
+  -webkit-appearance: none;
+  width: 20%;
+  height: 25px;
+  background: #d3d3d3;
+  outline: none;
+  opacity: 0.7;
+  border-radius: 10px;  
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+  
+}
+
+.slider:hover {
+  opacity: 1;
+}
+
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  background: #cd44e9;
+  border-radius: 10px;  
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  border-radius: 5px;  
+  background: #86d1b6;
+  cursor: pointer;
+}
 .hexa{
     font-family: cfont;
     font-weight: bolder;
 }
 
+.home{
+    transition: 400ms;
+}
 .home:hover{
-    transition-duration: 400ms;
-        filter: hue-rotate(180deg);
+    transition: 400ms;
+        filter: hue-rotate(220deg);
 }
