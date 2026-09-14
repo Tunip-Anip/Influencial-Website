@@ -187,3 +187,12 @@ From this the setup for the entire program can be constructed with slight diffuc
 The common trend among peer review is thatthe website has lackluster aesthetics. This is very true as I haven't spent much time on the visual aspects of the project so further work on the CSS will be needed.
 
 Despite this the project is seeming to have its initial buildings in place for future improvement and additions.
+
+
+## Week 2 Evaluation:
+This week I have tried to link up the sldier bar to the amount of random colour boxes in the screen but to no avail. This week was mostly studying Jinja and knowling how to use it.
+
+Since this week as focused on learning Jinja njot mmuch progress was put into the actual project but some font changes were made as well as fixing up positions of soem objects.
+
+### Peer FeedBack
+As above not much work was done so the peer feedback is mostly the same but with slight improvent in visual appeal

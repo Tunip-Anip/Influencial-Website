@@ -36,37 +36,284 @@
 
 
 
-            <div class="colorgen" style="text-align: center; width: 100%;top: 45vh;" >
+            <div class="colorgen" style="text-align: center; width: 100%;top: 45vh;"onclick="changecol()">
+                <div  onclick="changecol1()" >
+                <div  onclick="changecol2()" >
+                <div  onclick="changecol3()" >
+                <div  onclick="changecol4()" >
+                <div  onclick="changecol5()" >
+                <div  onclick="changecol6()" >
+                <div  onclick="changecol7()" >
+                <div  onclick="changecol8()" >
+                    <button id="colorgen" style="background-color: rgb(32, 34, 36); width: 10vw; height:10vw;border: none;outline: none;" >
+                        <p1 id="hexa" class="hexa" style="background-blend-mode:soft-light; text-shadow: 0 0 4px #000000, 0 0 5px #000000">HEX</p1>
+                        <script>
+                            function changecol(){
+                                let randHex = randcolHex()
 
-                <button id="colorgen" style="background-color: rgb(32, 34, 36); width: 10vw; height:10vw;border: none;outline: none;" onclick="changecol()">
-                    <p1 id="hexa" style="background-blend-mode:soft-light; text-shadow: 0 0 4px #000000, 0 0 5px #000000">HEX</p1>
-                    <script>
-                        function changecol(){
-                            let randHex = randcolHex()
+                                document.getElementById("colorgen").style.backgroundColor = randHex
+                                document.getElementById("hexa").innerHTML = randHex
+                                document.getElementById("hexa").style.color = '#ffffff'
+                                if (document.getElementById("ColorRg").value > 1){
+                                    document.getElementById("colorgen").style.display
+                                }
 
-                            document.getElementById("colorgen").style.backgroundColor = randHex
-                            document.getElementById("hexa").innerHTML = randHex
-                            document.getElementById("hexa").style.color = '#ffffff'
-                            console.log(randRGB)
-                        }
-                        function componentToHex(c) {
-                            var hex = c.toString(16);
-                            return hex.length == 1 ? "0" + hex : hex;
-                        }
-                        function rgbToHex(r, g, b) {
-                            return "#" + componentToHex(r) + componentToHex(g) + componentToHex(b);
-                        }
+                            }
+                            function componentToHex(c) {
+                                var hex = c.toString(16);
+                                return hex.length == 1 ? "0" + hex : hex;
+                            }
+                            function rgbToHex(r, g, b) {
+                                return "#" + componentToHex(r) + componentToHex(g) + componentToHex(b);
+                            }
 
-                        function randcolHex(){
-                            var o = Math.round, r = Math.random, s = 255;
-                            return(rgbToHex(o(r()*s),o(r()*s),o(r()*s)))
-                        }
+                            function randcolHex(){
+                                var o = Math.round, r = Math.random, s = 255;
+                                return(rgbToHex(o(r()*s),o(r()*s),o(r()*s)))
+                            }
 
-                    </script>
-                </button>
-                
-                
-                
+                        </script>
+                    </button>
+                    
+                    <button id="colorgen1" style="background-color: rgb(32, 34, 36); width: 10vw; height:10vw;border: none;outline: none;"  >
+                        <p1 id="hexa1" class="hexa" style="background-blend-mode:soft-light; text-shadow: 0 0 4px #000000, 0 0 5px #000000">HEX</p1>
+                        <script>
+                            function amount1(){
+                                if (document.getElementById("ColorRg").value < 2){
+                                    document.getElementById("colorgen").style.display = 'none'
+                                }
+                            }
+                            function changecol1(){
+                                let randHex = randcolHex1()
+
+                                document.getElementById("colorgen1").style.backgroundColor = randHex
+                                document.getElementById("hexa1").innerHTML = randHex
+                                document.getElementById("hexa1").style.color = '#ffffff'
+                                
+
+                            }
+                            function componentToHex1(c) {
+                                var hex = c.toString(16);
+                                return hex.length == 1 ? "0" + hex : hex;
+                            }
+                            function rgbToHex1(r, g, b) {
+                                return "#" + componentToHex1(r) + componentToHex1(g) + componentToHex1(b);
+                            }
+
+                            function randcolHex1(){
+                                var o = Math.round, r = Math.random, s = 255;
+                                return(rgbToHex1(o(r()*s),o(r()*s),o(r()*s)))
+                            }
+
+                        </script>
+                    </button>
+
+
+                    
+                    <button id="colorgen2" style="background-color: rgb(32, 34, 36); width: 10vw; height:10vw;border: none;outline: none;" >
+                        <p1 id="hexa2" class="hexa" style="background-blend-mode:soft-light; text-shadow: 0 0 4px #000000, 0 0 5px #000000">HEX</p1>
+                        <script>
+                            function changecol2(){
+                                let randHex = randcolHex2()
+
+                                document.getElementById("colorgen2").style.backgroundColor = randHex
+                                document.getElementById("hexa2").innerHTML = randHex
+                                document.getElementById("hexa2").style.color = '#ffffff'
+
+                            }
+                            function componentToHex2(c) {
+                                var hex = c.toString(16);
+                                return hex.length == 1 ? "0" + hex : hex;
+                            }
+                            function rgbToHex2(r, g, b) {
+                                return "#" + componentToHex2(r) + componentToHex2(g) + componentToHex2(b);
+                            }
+
+                            function randcolHex2(){
+                                var o = Math.round, r = Math.random, s = 255;
+                                return(rgbToHex2(o(r()*s),o(r()*s),o(r()*s)))
+                            }
+
+                        </script>
+                    </button>
+
+                    
+                    <button id="colorgen3" style="background-color: rgb(32, 34, 36); width: 10vw; height:10vw;border: none;outline: none;" >
+                        <p1 id="hexa3" class="hexa" style="background-blend-mode:soft-light; text-shadow: 0 0 4px #000000, 0 0 5px #000000">HEX</p1>
+                        <script>
+                            function changecol3(){
+                                let randHex = randcolHex3()
+
+                                document.getElementById("colorgen3").style.backgroundColor = randHex
+                                document.getElementById("hexa3").innerHTML = randHex
+                                document.getElementById("hexa3").style.color = '#ffffff'
+
+                            }
+                            function componentToHex3(c) {
+                                var hex = c.toString(16);
+                                return hex.length == 1 ? "0" + hex : hex;
+                            }
+                            function rgbToHex3(r, g, b) {
+                                return "#" + componentToHex3(r) + componentToHex3(g) + componentToHex3(b);
+                            }
+
+                            function randcolHex3(){
+                                var o = Math.round, r = Math.random, s = 255;
+                                return(rgbToHex3(o(r()*s),o(r()*s),o(r()*s)))
+                            }
+
+                        </script>
+                    </button>
+
+                    
+                    <button id="colorgen4" style="background-color: rgb(32, 34, 36); width: 10vw; height:10vw;border: none;outline: none;" >
+                        <p1 id="hexa4" class="hexa" style="background-blend-mode:soft-light; text-shadow: 0 0 4px #000000, 0 0 5px #000000">HEX</p1>
+                        <script>
+                            function changecol4(){
+                                let randHex = randcolHex4()
+
+                                document.getElementById("colorgen4").style.backgroundColor = randHex
+                                document.getElementById("hexa4").innerHTML = randHex
+                                document.getElementById("hexa4").style.color = '#ffffff'
+
+                            }
+                            function componentToHex4(c) {
+                                var hex = c.toString(16);
+                                return hex.length == 1 ? "0" + hex : hex;
+                            }
+                            function rgbToHex4(r, g, b) {
+                                return "#" + componentToHex4(r) + componentToHex4(g) + componentToHex4(b);
+                            }
+
+                            function randcolHex4(){
+                                var o = Math.round, r = Math.random, s = 255;
+                                return(rgbToHex4(o(r()*s),o(r()*s),o(r()*s)))
+                            }
+
+                        </script>
+                    </button>
+
+                    
+                    <button id="colorgen5" style="background-color: rgb(32, 34, 36); width: 10vw; height:10vw;border: none;outline: none;" >
+                        <p1 id="hexa5" class="hexa" style="background-blend-mode:soft-light; text-shadow: 0 0 4px #000000, 0 0 5px #000000">HEX</p1>
+                        <script>
+                            function changecol5(){
+                                let randHex = randcolHex5()
+
+                                document.getElementById("colorgen5").style.backgroundColor = randHex
+                                document.getElementById("hexa5").innerHTML = randHex
+                                document.getElementById("hexa5").style.color = '#ffffff'
+
+                            }
+                            function componentToHex5(c) {
+                                var hex = c.toString(16);
+                                return hex.length == 1 ? "0" + hex : hex;
+                            }
+                            function rgbToHex5(r, g, b) {
+                                return "#" + componentToHex5(r) + componentToHex5(g) + componentToHex5(b);
+                            }
+
+                            function randcolHex5(){
+                                var o = Math.round, r = Math.random, s = 255;
+                                return(rgbToHex5(o(r()*s),o(r()*s),o(r()*s)))
+                            }
+
+                        </script>
+                    </button>
+
+                    
+                    <button id="colorgen6" style="background-color: rgb(32, 34, 36); width: 10vw; height:10vw;border: none;outline: none;" >
+                        <p1 id="hexa6" class="hexa" style="background-blend-mode:soft-light; text-shadow: 0 0 4px #000000, 0 0 5px #000000">HEX</p1>
+                        <script>
+                            function changecol6(){
+                                let randHex = randcolHex6()
+
+                                document.getElementById("colorgen6").style.backgroundColor = randHex
+                                document.getElementById("hexa6").innerHTML = randHex
+                                document.getElementById("hexa6").style.color = '#ffffff'
+
+                            }
+                            function componentToHex6(c) {
+                                var hex = c.toString(16);
+                                return hex.length == 1 ? "0" + hex : hex;
+                            }
+                            function rgbToHex6(r, g, b) {
+                                return "#" + componentToHex6(r) + componentToHex6(g) + componentToHex6(b);
+                            }
+
+                            function randcolHex6(){
+                                var o = Math.round, r = Math.random, s = 255;
+                                return(rgbToHex6(o(r()*s),o(r()*s),o(r()*s)))
+                            }
+
+                        </script>
+                    </button>
+
+                    
+                    <button id="colorgen7" style="background-color: rgb(32, 34, 36); width: 10vw; height:10vw;border: none;outline: none;" >
+                        <p1 id="hexa7" class="hexa" style="background-blend-mode:soft-light; text-shadow: 0 0 4px #000000, 0 0 5px #000000">HEX</p1>
+                        <script>
+                            function changecol7(){
+                                let randHex = randcolHex7()
+
+                                document.getElementById("colorgen7").style.backgroundColor = randHex
+                                document.getElementById("hexa7").innerHTML = randHex
+                                document.getElementById("hexa7").style.color = '#ffffff'
+
+                            }
+                            function componentToHex7(c) {
+                                var hex = c.toString(16);
+                                return hex.length == 1 ? "0" + hex : hex;
+                            }
+                            function rgbToHex7(r, g, b) {
+                                return "#" + componentToHex7(r) + componentToHex7(g) + componentToHex7(b);
+                            }
+
+                            function randcolHex7(){
+                                var o = Math.round, r = Math.random, s = 255;
+                                return(rgbToHex7(o(r()*s),o(r()*s),o(r()*s)))
+                            }
+
+                        </script>
+                    </button>
+
+                    
+                    <button id="colorgen8" style="background-color: rgb(32, 34, 36); width: 10vw; height:10vw;border: none;outline: none;" >
+                        <p1 id="hexa8" class="hexa" style="background-blend-mode:soft-light; text-shadow: 0 0 4px #000000, 0 0 5px #000000">HEX</p1>
+                        <script>
+                            function changecol8(){
+                                let randHex = randcolHex8()
+
+                                document.getElementById("colorgen8").style.backgroundColor = randHex
+                                document.getElementById("hexa8").innerHTML = randHex
+                                document.getElementById("hexa8").style.color = '#ffffff'
+
+                            }
+                            function componentToHex8(c) {
+                                var hex = c.toString(16);
+                                return hex.length == 1 ? "0" + hex : hex;
+                            }
+                            function rgbToHex8(r, g, b) {
+                                return "#" + componentToHex8(r) + componentToHex8(g) + componentToHex8(b);
+                            }
+
+                            function randcolHex8(){
+                                var o = Math.round, r = Math.random, s = 255;
+                                return(rgbToHex8(o(r()*s),o(r()*s),o(r()*s)))
+                            }
+
+                        </script>
+                    </button>
+
+                    
+                </div>
+                </div>
+                </div>
+                </div>
+                </div>
+                </div>
+                </div>
+                </div>
             </div>
             
         {% endblock %}

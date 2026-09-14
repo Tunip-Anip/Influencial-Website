@@ -23,7 +23,7 @@
             <div class="text" style="padding: 1%;">
             ColoGen:
             
-                <a href="{{ url_for('index') }}">Home</a>
+                <a href="{{ url_for('index') }}"><img src="{{ url_for('static', filename='icons/House.png') }}" alt="" class="home" style="width: 2vw; "></a>
                 {% if current_user.is_anonymous %}
                 <a href="{{ url_for('login') }}">Login</a>
                 {% else %}

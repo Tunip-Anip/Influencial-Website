@@ -21,10 +21,17 @@
     top: 40vw;
     overflow-x: hidden;
     padding-top: 20px;
+    overflow-x: hidden;
+
 
 }
 
-#hexa{
+.hexa{
     font-family: cfont;
     font-weight: bolder;
+}
+
+.home:hover{
+    transition-duration: 400ms;
+        filter: hue-rotate(180deg);
 }
