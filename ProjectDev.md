@@ -196,3 +196,80 @@ Since this week as focused on learning Jinja njot mmuch progress was put into th
 
 ### Peer FeedBack
 As above not much work was done so the peer feedback is mostly the same but with slight improvent in visual appeal
+
+## Week 3 Evaluation:
+A lot of progress was made this week. firstly I made a group of buttons in a div which are all affected by an onclick fucntion, this was done in a very roundabout and low skill way with a mass of nested '<divs>' but it works nevertheless. I also connected the sliderbar that was made in week one to the amoun t pof buttons shown on the screen with the 'display' aspect in css which allwoed for further control of the palette. Further styling was also done where I centred both the slider and the slider amoutn display. I also gave the navigation button symbols to provide a cleaner look to the nav bar at the top and I styled the login page.
+
+With this the bulk opf the project is mainly done as the colour palette generator includes most of its intended features. Things I could add would probably be saving colour palettes that are liked or also allowing for inputing you own colours through a colour selection tool.
+
+### HTML
+
+Linking the amount of buttons with the range slider value
+```
+            <h1 class="base" style="text-align: center;">Hi, {{ current_user.username }}!</h1>
+            <div style="text-align: center; margin-top:10vh"; display:block>
+            <input type="range" min="1" max="9" value="5" class="slider" id="ColorRg" title="Number of Colors" oninput="Getrange()" onload="Getrange()" > 
+            </div>
+            <p style="text-align:center;margin-top:1vh;font-size:8vh;font-family:cfont" id="ColorOP">5</p>
+            <script>
+            function Getrange(){
+                document.getElementById("ColorOP").innerHTML = document.getElementById("ColorRg").value
+                console.log(document.getElementById("ColorRg").value)
+                amount1()
+                amount2()
+                amount3()
+                amount4()
+                amount5()
+                amount6()
+                amount7()
+                amount8()
+                }
+            </script>
+
+```
+Whenever anypart of the area is clicked all the buttons need to individually randomise their colour, example with:
+
+```
+
+            <div class="colorgen" style="text-align: center; width: 100%;top: 45vh;">
+                <div  onclick="changecol()" onload="changecol()" >
+                <div  onclick="changecol1()" onload="changecol1()" >
+                <div  onclick="changecol2()" onload="changecol2()">
+                <div  onclick="changecol3()" onload="changecol3()">
+                <div  onclick="changecol4()" onload="changecol4()">
+                <div  onclick="changecol5()" onload="changecol5()">
+                <div  onclick="changecol6()" onload="changecol6()">
+                <div  onclick="changecol7()" onload="changecol7()">
+                <div  onclick="changecol8()" onload="changecol8()">
+                    <button id="colorgen" style="background-color: rgb(32, 34, 36); width: 10vw; height:10vw;border: none;outline: none;" >
+                        <p1 id="hexa" class="hexa" style="background-blend-mode:soft-light; text-shadow: 0 0 4px #000000, 0 0 5px #000000">HEX</p1>
+                        <script>
+                            function changecol(){
+                                let randHex = randcolHex()
+
+                                document.getElementById("colorgen").style.backgroundColor = randHex
+                                document.getElementById("hexa").innerHTML = randHex
+                                document.getElementById("hexa").style.color = '#ffffff'
+                                if (document.getElementById("ColorRg").value > 1){
+                                    document.getElementById("colorgen").style.display
+                                }
+
+                            }
+                            function componentToHex(c) {
+                                var hex = c.toString(16);
+                                return hex.length == 1 ? "0" + hex : hex;
+                            }
+                            function rgbToHex(r, g, b) {
+                                return "#" + componentToHex(r) + componentToHex(g) + componentToHex(b);
+                            }
+
+                            function randcolHex(){
+                                var o = Math.round, r = Math.random, s = 255;
+                                return(rgbToHex(o(r()*s),o(r()*s),o(r()*s)))
+                            }
+
+                        </script>
+                    </button>
+```
+### Peer FeedBack
+I was told that the navigation buttons were hard to understand so It is a focus to make all the buttons a lot more intuitive, also I need to add css into the profile page.

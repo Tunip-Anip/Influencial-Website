@@ -3,7 +3,7 @@
 {% block content %}
         <table>
         <tr valign="top">
-            <td><img id="imagep" src="{{ user.profile }}" onload="checksize()" width="100">
+            <td><img id="imagep" class="imagep" src="{{ user.profile }}" onload="checksize()" width="100" height="100">
             <script>
                 function checksize(){
                     let imagef = document.getElementById("imagep").style.width
@@ -13,7 +13,7 @@
                     }
                 }
             </script></td>
-            <td>
+            <td class="userinf">
                 <h1>User: {{ user.username }}</h1>
                 {% if user.about_me %}<p>{{ user.about_me }}</p>{% endif %}
                 {% if user.last_seen %}<p>Last seen on: {{ user.last_seen }}</p>{% endif %}

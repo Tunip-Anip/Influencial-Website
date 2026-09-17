@@ -3,7 +3,7 @@
 }
 @font-face {
   font-family:cfont;
-  src: url(Fonts/Comic\ Sans\ MS\ 400.ttf);
+  src: url(Fonts/Sniglet-Regular.ttf);
 }
 
 .base {
@@ -91,4 +91,14 @@
 .home:hover{
     transition: 400ms;
         filter: hue-rotate(220deg);
+}
+
+.userinf{
+    font-family:cfont;
+}
+
+.imagep{
+    clip-path: circle(50%);
+    margin-top: 5vh;
+    object-fit: cover;
 }
