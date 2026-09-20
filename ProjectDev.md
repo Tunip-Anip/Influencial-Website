@@ -565,7 +565,18 @@ With this the project was finished, All the main aspects were showcased, that be
 With that the project is completely finished and fully refined. I believe I could have created a better aesthetically pleasing website but all together there is a certain charm with the pastel, marshmallow colours which ties into the name Cologne. The functionality of the website is flawless I believe and its usability is pretty good. There is one big critique and that is to launch the actual website you need to install flask, sqlalchemy... all the basic flask hosting apis to actually use the flask run function in the terminal. I could also try to implement the actual sharing functions and viewing other peoples profiles as shown in the flask mega tutorials. But overall the functionality of the website is what carries it through, it is very fun to watch the random colours and the slider bars connectivity was very fun to code and implement. I have also tested the applicability to people with impaired vision and the colours that are used aid well when in use by having enough contrast to tell a person with colourblindness what to do. Also much of the text is large so it will also be easy to read. I do believe that the login/signup pages need to be a lot more aesthetically pleasing since they are currently lackluster and don't have much detail but I can't find a way to place them nicely and it has become quite the conundrum.
 
 
+## Peer Feedback
+UX: 7/10
+Page navigation is clear and unique but may be confusing for some people as they aren't generic icons. It is not obvious what the range slider does until you use it which is bad UX. Being unable to copypaste the palettes (not even as a whole) is also slightly user unfriendly as colour hexes are not easy to type/remember. The use of :hover to animate the icons also allows users to understand that they are navigation buttons. Why is the main colour palette buttons stickied on the screen
 
+Aesthetics: 8/10
+Unique aesthetics and custom icons and buttons making it stand out from almost every other website. Main issue is that the bottom two buttons to switch between generator and palette is not styled the same way and looks out of place.
+
+Accuracy: 10/10
+very random colours for colour palettes
+
+Influence: 7/10
+This page may influence artists and designers into making good websites
 
 ## Evaluation of Issues
 I believe the ethicality and legality of the website should not be much of an issue as what it brings in is entirely subjective and it's just a colour palette generator. But problems could be caused with the social aspects of sharing and commenting, so a moderation team needs to be formed if the social aspects of the website actually get made, but for now as the website is inherently closed off to personal use the legality and ethicality of it would not need to be addressed too much. The social aspect on a whole is what the main point of the website is, when going out or needing a set of colours in a place I see a lot of people struggling and using colour palette generators which is why I believe that ColoGen is a positive addition to the social life of everyone, providing a good sense of creativity into everyone. Some legal issues may need to be addressed with copyright and other color generating websites but there isn't a copyright on website ideas specifically for generating colours so the issue is averted. Another aspect of social issues may be with email storing and risk of data leaks but the password hashing is made well enough to where leaking passwords and data breaching would be hard to come by.
