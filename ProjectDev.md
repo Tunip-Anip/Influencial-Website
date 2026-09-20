@@ -155,7 +155,7 @@ There was similar feedback to the Login page where the default layout helps when
 
 ## Prototype
 
-<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://embed.figma.com/design/owfKPKjFnFGNWOaN9Rt7pg/The-Careers-Department-UX---UI-Template--Community-?node-id=1-1938&embed-host=share" allowfullscreen></iframe>
+<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://embed.figma.com/design/owfKPKjFnFGNWOaN9Rt7pg/CTPrototype?node-id=0-1&embed-host=share" allowfullscreen></iframe>
 
 # Producing and Implementing
 
