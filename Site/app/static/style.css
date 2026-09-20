@@ -149,5 +149,32 @@
 body{
     background-image: url(Icons/Bg.png);
     background-size: cover;
+    overflow: hidden;
+
+}
+
+.circle1{
+  height: 30vw;
+  width: 30vw;
+  top: 70%;
+  left: -3%;
+  background-image: url(Icons/ScatG.png);
+  background-size: cover;
+  border-radius: 50%;
+  overflow:hidden;
+  position:absolute;
+  
+}
+
+.circle2{
+  height: 80vw;
+  width: 80vw;
+  top: 10%;
+  left:65%;
+  background-image: url(Icons/ScatG.png);
+  background-size: cover;
+  border-radius: 50%;
+  overflow:hidden;
+  position:absolute;
 
 }

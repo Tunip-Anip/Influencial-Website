@@ -8,6 +8,7 @@
         <title>Welcome to ColoGen</title>
         {% endif %}
          <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+         <!--title and css-->
 
         <!-- The website JavaScript file -->
         <script src="{{url_for('static', filename='script.js')}}"></script>
@@ -29,7 +30,7 @@
                 {% else %}
                 <a href="{{ url_for('user', username=current_user.username) }}"><img src="{{ url_for('static', filename='icons/Profile.png') }}" alt="" class="home" style="width: 3%;"></a>
                 <a href="{{ url_for('logout') }}"><img src="{{ url_for('static', filename='icons/Exit.png') }}" alt="" class="home" style="width: 3%;"></a>
-            
+            <!-- The header tab and its buttons/labels-->
             </div>
 
 

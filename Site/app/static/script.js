@@ -1,15 +1,17 @@
-    for(let i = 0; i < 9; i++){
+
+for(let i = 0; i < 9; i++){
       let id = 'colpic' + i
       console.log(id)
       document.getElementById(id).style.display = "none"
     }
-
+// I dont even know what I was doing here
 var cMode = false
+// Makes Colour Creator mode off
 function Getrange(){
 
   document.getElementById("ColorOP").innerHTML = document.getElementById("ColorRg").value
 }
-
+// Gets the value off the slider
 function Create(){
     cMode = true
     for(let i = 0; i < 9; i++){
@@ -26,10 +28,11 @@ function Create(){
       document.getElementById(id).style.backgroundColor = 'rgba(174, 174, 174, 0)'
       document.getElementById(id2).style.color = 'rgba(174, 174, 174, 0)'
       document.getElementById(id2).style.textShadow = 'rgba(174, 174, 174, 0)'
-
+      // Since both the text of the hexcode and the actual box both have id naming schemes of --- + a number they can be iterated like this
     }
 
 }
+// When  the create button is clicked make all the generator elements hide.
 function Generate(){
     cMode = false
     for(let i = 0; i < 9; i++){
@@ -49,7 +52,7 @@ function Generate(){
     } 
 
 }
-    
+    // same thing but generate
 
 function Getrange(){
   document.getElementById("ColorOP").innerHTML = document.getElementById("ColorRg").value
@@ -63,13 +66,18 @@ function Getrange(){
   amount7()
   amount8()
  }
+// When the slider is changed change the amount of boxes
 
+// The following few lines are all gonna be the same with minor adjustments
 function changecol(){
   if(cMode == false){
+    // If it is in colour generator mode
     let randHex = randcolHex()
-
+    // Random Colour
     document.getElementById("colorgen0").style.backgroundColor = randHex
+    //changes the boxes background to a random colour
     document.getElementById("hexa0").innerHTML = randHex
+    //makes the label show the backgrounds hex
     document.getElementById("hexa0").style.color = '#ffffff'
     if (document.getElementById("ColorRg").value > 1){
         document.getElementById("colorgen0").style.display
@@ -81,13 +89,16 @@ function changecol(){
   function componentToHex(c) {
   var hex = c.toString(16);
   return hex.length == 1 ? "0" + hex : hex;
+  //turns each R, G, B value as a hexadecimal
   }
   function rgbToHex(r, g, b) {
   return "#" + componentToHex(r) + componentToHex(g) + componentToHex(b);
+  // Converts the RGB to hexadecimal for the Label
   }
 
   function randcolHex(){
   var o = Math.round, r = Math.random, s = 255;
+  //Creates a random colour with the formula
   return(rgbToHex(o(r()*s),o(r()*s),o(r()*s)))
   }
 
@@ -95,8 +106,10 @@ function amount1(){
   if (document.getElementById("ColorRg").value < 2){
       document.getElementById("colorgen1").style.display = 'none'
   }
+  // makes the box invisivble when the value is too small
   else{
       document.getElementById("colorgen1").style.display = ''
+      //makes the box visible
   }
 }
 function changecol1(){
@@ -352,3 +365,4 @@ function randcolHex8(){
   return(rgbToHex8(o(r()*s),o(r()*s),o(r()*s)))
 }
 
+// The past few have been to add the same code to the buttons.

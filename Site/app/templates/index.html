@@ -26,6 +26,7 @@
             <input type="range" min="1" max="9" value="5" class="slider" id="ColorRg" title="Number of Colors" oninput="Getrange()" onload="Getrange()" > 
             </div>
             <p style="text-align:center;margin-top:1vh;font-size:8vh;font-family:cfont" id="ColorOP">5</p>
+            <!-- Slider bar and display of value-->
 
             <div  class="colorgen" style="text-align: center; width: 100%;top: 45vh; height:fit-content; overflow:hidden">
                 <div  onclick="changecol()" onload="changecol()" >
@@ -37,6 +38,8 @@
                 <div  onclick="changecol6()" onload="changecol6()">
                 <div  onclick="changecol7()" onload="changecol7()">
                 <div  onclick="changecol8()" onload="changecol8()">
+                            <!--makes it so any button clicked can randomise everything else-->
+
                     <button id="colorgen0" class="buttonc" style="background-color: rgb(32, 34, 36); width: 10vw; height:10vw;border: none;outline: none;" >
                         <p id="hexa0" class="hexa" style="background-blend-mode:soft-light; text-shadow: 0 0 4px #000000, 0 0 5px #000000">HEX</p>
                         <input type="color" class="colpic" id="colpic0" style="width: 10vw; height:10vw;border: none;outline: none;">
@@ -90,7 +93,7 @@
                         <p id="hexa8" class="hexa" style="background-blend-mode:soft-light; text-shadow: 0 0 4px #000000, 0 0 5px #000000">HEX</p>
                         <input type="color" class="colpic" id="colpic8" style="width: 10vw; height:10vw;border: none;outline: none;">
                     </button>
-
+                    <!--All of the buttons-->
                     
                 </div>
                 </div>
@@ -111,7 +114,7 @@
                     Palette Generator
                 </button>
             </div>
-            
+            <!-- Pallete Gen/Creator Buttons-->
         {% endblock %}
     </body>
 </html>

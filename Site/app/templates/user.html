@@ -12,6 +12,7 @@
                             document.getElementById("imagep").style.width = 150
                         }
                     }
+                    <!-- Makes the profile picture the correct size-->
                 </script></td>
             <td class="userinf">
                     <h1>User: {{ user.username }}</h1>
@@ -21,6 +22,7 @@
                     <p><a href="{{ url_for('edit_profile') }}">Edit your profile</a></p>
                     {% endif %}
                 </td>
+                <!-- Get information from lask about username, about me, last visited etc-->
                 
             <td>
                 <div onload="disStar()" class="starp">
@@ -39,7 +41,7 @@
                             var color7 = '#' + mainStr.substr(49, 6)
                             var color8 = '#' + mainStr.substr(56, 6)
                                 
-                            
+                            // Colours taken from inputted string from the edit profile menu
                             var amountS = (mainStr.split(",").length - 1) + 1
                             var amountP = 9 - amountS 
                             for(let e = 0; e < amountP; e++){
@@ -49,6 +51,7 @@
 
                                 document.getElementById(id).style.display = "none"
                             }
+                            // For each box in the star palette menu Make it invisible/visible when the amount is correct, this is gotten from the number of commas inside the inputted string
 
                             console.log(color0)
                             console.log(color1)
@@ -58,7 +61,7 @@
                             console.log(color6)
                             console.log(color7)
                             console.log(color8)
-                            
+                            //checks
                             document.getElementById("Star0").style.backgroundColor = color8
                             document.getElementById("Star1").style.backgroundColor = color7
                             document.getElementById("Star2").style.backgroundColor = color6
@@ -68,7 +71,7 @@
                             document.getElementById("Star6").style.backgroundColor = color2
                             document.getElementById("Star7").style.backgroundColor = color1
                             document.getElementById("Star8").style.backgroundColor = color0
-                            
+                            //changes the colour
 
 
                         }
@@ -93,7 +96,7 @@
                     <button id="Star0" class="star" style="height: 6vw; width: 6vw; background-color: white;">
                     </button>
 
-
+                    <!--individual buttons-->
                     
                 </div>
             </td>
@@ -106,3 +109,5 @@
         {% include '_post.html' %}
     {% endfor %}
 {% endblock %}
+
+<!--add the posts-->
