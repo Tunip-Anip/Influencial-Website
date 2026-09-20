@@ -21,7 +21,7 @@
     <body onload="disStar()" >
         <div class="base">
             <div class="text" style="padding: 1%;">
-            ColoGen:
+            ColoGen
             
                 <a href="{{ url_for('index') }}"><img src="{{ url_for('static', filename='icons/House.png') }}" alt="" class="home" style="width: 3%; "></a>
                 {% if current_user.is_anonymous %}
@@ -31,9 +31,7 @@
                 <a href="{{ url_for('logout') }}"><img src="{{ url_for('static', filename='icons/Exit.png') }}" alt="" class="home" style="width: 3%;"></a>
             
             </div>
-            <div id="wcb" class="carbonbadge" style="height: 1vh; text-align:left;">
-                <script src="https://unpkg.com/website-carbon-badges@1.1.3/b.min.js" defer></script>
-            </div>
+
 
             {% endif %}
         </div>    

@@ -96,13 +96,15 @@
 
 .userinf{
     font-family:cfont;
+    padding-top: 2%;
 }
 
 .imagep{
     clip-path: circle(50%);
     margin-top: 5vh;
     object-fit: cover;
-    margin: 4vw;
+    margin: 3vw;
+        padding-top: 2%;
 }
 
 .switches{
@@ -135,7 +137,7 @@
     text-align: left;
     left: 10%;
     border-radius: 50%;
-    
+    height: 10%;
 }
 
 .star{

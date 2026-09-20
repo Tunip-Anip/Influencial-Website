@@ -4,28 +4,10 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 # Diverge
 
 
-
-
 <img src="https://github.com/Tunip-Anip/Influencial-Website/blob/main/Images/Flowchartgorithm.png" alt="MindMap">
-
 
 
 
@@ -38,33 +20,11 @@
 | Blog Tutorial Website         | Provides information with a tutorial made to the public                                 | Knowledge through technological information on the web           | people in an interest to learn in a specific subject                      |
 | Style Creator                 | Gives a combination of clothes and ways to style them with each other                   | Social presentation and fear of being presented out of order     | People who are self conscious with how they are perceived by everyone else |            
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 # Converge
-
-
 
 
 ### Effort x Impact Matrix
 <img src="https://github.com/Tunip-Anip/Influencial-Website/blob/main/Images/Plane.png" alt="Effort,Impact Plane">
-
 
 
 
@@ -73,19 +33,15 @@
 <img src="https://github.com/Tunip-Anip/Influencial-Website/blob/main/Images/Second%20Idea.png" alt="Idea 2 Peer Evaluation">
 
 
-
-
 ### Converge Evaluation
-
-
 
 
 From my Effort impact matrix it was clear that the style editor, it being high effort and medium impact was a bad choice. Since the Clueless codes website is already existent it has the lowest effort possible and it does have a medium to high impact but the integrity of the task would be compromised if I used previously made. The daily positive affirmations website also has low impact but medium effort so it was crossed out. And the Blog has too high an effort to provide for its impact. With this two results were left, the colour palette generator and the Art scroller website. The Art scroller website had medium effort but high impact making it a feasible and positive project to create. The Colour palette generator while having a medium impact does have low effort so it was also another feasible project for creation.
 
 
 
-
 The most decisive factor on the SWOT analysis would be the threats, where spam was a common factor of both of the finalists, the art scroller website has 1 extra threat for image moderation. The Art Scroller Website and the Colour Palette Gen have similar Strengths while the Colour palette has less weaknesses but also has less opportunities. Overall the Colour Palette Generator has a larger scope of success than the Art Scroller Website.
+
 
 
 
@@ -95,70 +51,29 @@ Design, develop, and document a web application that explores the theme of influ
 
 
 
-
 You will brainstorm ideas, evaluate options, design your user interface, and build your app using web technologies (HTML, CSS, JavaScript, Flask). Your final product should demonstrate creative thinking, technical skills, and an understanding of influence in society.
-
-
 
 
 Requirements
 Your web app should:
 
-
-
-
 Respond clearly to the theme "Influence"
-
-
-
-
 Aim to have a positive social impact (local, national or global)
-
-
-
-
 Be interactive in some way (form, buttons, quiz, media, etc.)
-
-
-
-
 Include a clear message or call to action
-
-
-
-
 Use multimedia elements (e.g. text, images, audio, video, animation)
-
-
-
-
 Be designed with accessibility and user experience in mind
-
-
-
-
 Suggestions Before We Start
 Wicked Problems: You might choose to focus on some broader societal issues such as promoting digital wellbeing, challenging stereotypes, encouraging environmental action, raising awareness about misinformation or celebrating cultural diversity.
 
-
-
-
 Localised Issues: You could also go a bit more local and focus on peer influence, community volunteering, student voice, school culture, eco choices at GHS or highlighting local legends.
-
-
-
-
 # Requirements Outline:
 ## Purpose of the Application:
 The application will provide an assortment of complementary colours depending on what type of color is needed whether it is warm toned, cool toned, etc. This will help people increase their creativity with style and help resolve indecisiveness with colours.
 
 
 
-
 ## Functional Requirements
-
-
-
 
 * Website should save colours if clicked off of
 * People can create color palettes
@@ -177,12 +92,18 @@ The application will provide an assortment of complementary colours depending on
 <img src="https://github.com/Tunip-Anip/Influencial-Website/blob/main/Images/PMI.png" alt="PMI">
 
 
+
+
+
 ## Secondary Research
 * https://www.kolenda.io/guides/color#color-preferences
 * https://thesirenlppacs.com/5229/column-grid/paint-colors-and-why-youre-so-indecisive-about-them/
 
 
+
+
 Indecisiveness while choosing colours is already a large issue within society,and most of all choosing  colours is enabled by the user's personal choice. human choice to feel attracted to certain colours is theorised to stem from the early need to perceive threats in the wild. As Nick Kolenda outlines, to choose colours you need an understanding of what theme your project requires. This understanding in the theme limits the range of colours which would be useful for each scenario. This thematicness of colors originates from our initial observation of these colours such as the sun producing light and heat being related to colours such as orange or yellow making them feel warm on their own.
+
 
 
 Grace Davis provides a supporting perspective that colours are based on their surroundings, just as green and pink have the theme of a flowering plant their pairing in large objects takes away from the aesthetic values of the actual colours, creating a jarring colour scheme. The struggle to choose colours is very informed so the need for a way to make a colour palette is needed.
@@ -192,6 +113,8 @@ Grace Davis provides a supporting perspective that colours are based on their su
 
 ## Primary Research
 <img src="https://github.com/Tunip-Anip/Influencial-Website/blob/main/Images/Graph1.png" alt="Graph">
+
+
 
 
 As seen in the graph the choice of colour isn't a very big problem within the local area. This would decrease the value of a colour palette generator since the users would already have the ability to create their own palettes with creatively curated colours. This would mean I would need to add more features to create a larger range of influence if the project needs to bypass a threshold of innovation.
@@ -211,22 +134,30 @@ From this graph it supports the website slightly more as some people find themse
 <img src="https://github.com/Tunip-Anip/Influencial-Website/blob/main/Images/Cologens.jpg" alt="Main">
 
 
-F
 
-
+From the feedback I got this screen was very interpreted very well, with the promoted colours and symbolism I believe the screen can be more easily interpreted which would aid greatly in the makings of the project but as a basis the formatting on this version of the UX is very well done and doesn't need any major adjustments in the foreseeable future. I was told using the basic and minimalist style was carrying the intuitiveness,but I was told I could space them out a bit more to show that the colours are individual colours and not a gradient or box which is a very fair point that I will add to my final project.
 
 
 <img src="https://github.com/Tunip-Anip/Influencial-Website/blob/main/Images/Profile.jpg" alt="Profile">
 
 
+Since I used a standard profile layout the accessibility of the wireframes of the profile were easy to interpret, the profile picture, the name and information was very easy to deduct and because of this I believe keeping a default profile layout will help me success in keeping the readability and usability of the final website which will help in easing the user into the actual functions.
+
+
+
 <img src="https://github.com/Tunip-Anip/Influencial-Website/blob/main/Images/Login.jpg" alt="Login">
+
+
+There was similar feedback to the Login page where the default layout helps when trying to know what you can do in a page but I was also told the I could make use of the space a lot better since most of the login page is empty space, so a use of images or other shapes in those gaps could help the screen feel less empty and allow for an easier viewing experience.
+
+
 
 
 ## Prototype
 
+<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://embed.figma.com/design/owfKPKjFnFGNWOaN9Rt7pg/The-Careers-Department-UX---UI-Template--Community-?node-id=1-1938&embed-host=share" allowfullscreen></iframe>
 
 # Producing and Implementing
-
 
 
 
@@ -243,6 +174,12 @@ In Html I added the actual colour change button and also made a slider whilst gi
 ### HTML
 ```
  {% extends "base.html" %}
+
+
+
+
+
+
 
 
         {% block content %}
@@ -278,11 +215,14 @@ This sets up the base for the entire program, with our main functions. That bein
 From this the setup for the entire program can be constructed with slight difficulty and the functionality can improve.
 
 
+
 ### Peer FeedBack
 "The website is very functional but it's not nice to look at and its kinda confusing to navigate"
 
 
+
 The common trend among peer review is that the website has lackluster aesthetics. This is very true as I haven't spent much time on the visual aspects of the project so further work on the CSS will be needed.
+
 
 
 Despite this the project is seeming to have its initial buildings in place for future improvement and additions.
@@ -293,12 +233,14 @@ Despite this the project is seeming to have its initial buildings in place for f
 ## Week 2 Evaluation:
 This week I have tried to link up the slider bar to the amount of random colour boxes in the screen but to no avail. This week was mostly studying Jinja and knowing how to use it.
 
-
 Since this week was focused on learning Jinja not much progress was put into the actual project but some font changes were made as well as fixing up positions of some objects.
+
 
 
 ### Peer FeedBack
 As above not much work was done so the peer feedback is mostly the same but with slight improvement in visual appeal
+
+
 
 
 ## Week 3 Evaluation:
@@ -308,7 +250,10 @@ A lot of progress was made this week. Firstly I made a group of buttons in a div
 With this the bulk of the project is mainly done as the colour palette generator includes most of its intended features. Things I could add would probably be saving colour palettes that are liked or also allowing for inputting your own colours through a colour selection tool.
 
 
+
 ### HTML
+
+
 
 
 Linking the amount of buttons with the range slider value
@@ -326,12 +271,13 @@ Linking the amount of buttons with the range slider value
                 amount2()
                 amount3()
                 amount4()
-                amount5()
-                amount6()
+                amount()
+                amount()
                 amount7()
                 amount8()
                 }
             </script>
+
 
 
 ```
@@ -339,6 +285,10 @@ Whenever any part of the area is clicked all the buttons need to individually ra
 
 
 ```
+
+
+
+
 
 
             <div class="colorgen" style="text-align: center; width: 100%;top: 45vh;">
@@ -358,12 +308,24 @@ Whenever any part of the area is clicked all the buttons need to individually ra
                                 let randHex = randcolHex()
 
 
+
+
+
+
+
+
                                 document.getElementById("colorgen").style.backgroundColor = randHex
                                 document.getElementById("hexa").innerHTML = randHex
                                 document.getElementById("hexa").style.color = '#ffffff'
                                 if (document.getElementById("ColorRg").value > 1){
                                     document.getElementById("colorgen").style.display
                                 }
+
+
+
+
+
+
 
 
                             }
@@ -376,10 +338,22 @@ Whenever any part of the area is clicked all the buttons need to individually ra
                             }
 
 
+
+
+
+
+
+
                             function randcolHex(){
                                 var o = Math.round, r = Math.random, s = 255;
                                 return(rgbToHex(o(r()*s),o(r()*s),o(r()*s)))
                             }
+
+
+
+
+
+
 
 
                         </script>
@@ -395,6 +369,8 @@ I was told that the navigation buttons were hard to understand so it is a focus 
 
 
 This week I added the new Palette Creator mode to the Website where the user can create their own palettes to use. This is one of the Functional requirements. I also added a star Palette to the profile page which is a chosen set of colours you want to be posted on your profile page. I also added examples of sharing colour palettes with the comments on the bottom of the profile page. I updated the Navigation Icons to make them easier to interpret and also made a background for the entire body.
+
+
 
 
 ### HRML
@@ -415,10 +391,7 @@ This week I added the new Palette Creator mode to the Website where the user can
 
 
 
-
-
         <a href="{{ url_for('login') }}"><img src="{{ url_for('static', filename='icons/Login.png') }}" alt="" class="home" style="width: 3%;"></a>
-
 
 
 
@@ -427,7 +400,6 @@ This week I added the new Palette Creator mode to the Website where the user can
             {% for error in form.profile.errors %}
             <span style="color: red;">[{{ error }}]</span>
             {% endfor %}
-
 
 
 
@@ -471,7 +443,6 @@ This week I added the new Palette Creator mode to the Website where the user can
 
 
                                 var id = 'Star' + e
-
 
                                 document.getElementById(id).style.display = "none"
                             }
@@ -525,16 +496,16 @@ This week I added the new Palette Creator mode to the Website where the user can
 
 
 
-
                    
                 </div>
 ```
 
 
 
-
 ### JavaScript
 ```
+
+
 
 
 function Create(){
@@ -544,6 +515,9 @@ function Create(){
       console.log(id)
       document.getElementById(id).style.display = ""
     }
+
+
+
 
 
 
@@ -565,6 +539,7 @@ function Generate(){
     }
 
 
+
     for(let i = 0; i < 9; i++){
       let id = 'colorgen' + i
       console.log(id)
@@ -572,31 +547,58 @@ function Generate(){
     }
 
 
+
 }
    
 ```
 
 
+
 The Star palette was done very weirdly in my opinion as it focused on having to type out the hexcodes in a certain way to work.
 
 
-With this the project was finished, All the main aspects were showcased, that being the colour generator, colour creator and sharing palettes. The Style and design looks very good and I find it appealing. It's also very intuitive, I can tell what to do easily and the updated Icons helped a lot. From this all that is needed is some final bug fixes/ error fixes and then the final evaluation in terms of the entire project through the requirements outline.
+
+With this the project was finished, All the main aspects were showcased, that being the colour generator, colour creator and sharing palettes. The style and design looks very good and I find it appealing. It's also very intuitive, I can tell what to do easily and the updated Icons helped a lot. From this all that is needed is some final bug fixes/ error fixes and then the final evaluation in terms of the entire project through the requirements outline.
+
 
 
 # Final Evaluation
-With that the project is completely finished and fully refined. I believe I could have created a better aesthetically pleasing website but all together there is a certain charm with the pastel, marshmallow colours which ties into the name Cologne. The functionality of the website is flawless I believe and its usability is pretty good. There is one big critique and that is to launch the actual website you need to install flask, sqlalchemy... all the basic flask hosting apis to actually use the flask run function in the terminal. I could also try to implement the actual sharing functions and viewing other peoples profiles as shown in the flask mega tutorials. But overall the functionality of the website is what carries it through, it is very fun to watch the random colours and the slider bars connectivity was very fun to code and implement. I have also tested the aplicability to people with impared vision and the colours that are used aid well when in use by having enough contrast to tell a person with colourblindness what to do. Also mcuh of the text is large so it will aslo be easy to read.
+With that the project is completely finished and fully refined. I believe I could have created a better aesthetically pleasing website but all together there is a certain charm with the pastel, marshmallow colours which ties into the name Cologne. The functionality of the website is flawless I believe and its usability is pretty good. There is one big critique and that is to launch the actual website you need to install flask, sqlalchemy... all the basic flask hosting apis to actually use the flask run function in the terminal. I could also try to implement the actual sharing functions and viewing other peoples profiles as shown in the flask mega tutorials. But overall the functionality of the website is what carries it through, it is very fun to watch the random colours and the slider bars connectivity was very fun to code and implement. I have also tested the applicability to people with impaired vision and the colours that are used aid well when in use by having enough contrast to tell a person with colourblindness what to do. Also much of the text is large so it will also be easy to read. I do believe that the login/signup pages need to be a lot more aesthetically pleasing since they are currently lackluster and don't have much detail but I can't find a way to place them nicely and it has become quite the conundrum.
+
+
+
 
 ## Evaluation of Issues
-I beleive the ethicality and legality of the website should not be much of an issue as what it brings in entirely subjective and its just a colour palette generator. But problems could be caused with the social aspects of sharing and commenting, so a moderation team needs to be formed if the social aspects of the website actually get made, but for now as the website is inheritly closed off to personal use the legality and ethicality of it would not need to be addressed too much. The social aspect on a whole is what the main point of the website is, when going out or needing a set of colours in a place I see a lot of people struggling and using colour palette generators which is why I beleive that ColoGen is a positive addition to the social life of everyone, providing a good sense of creativity into everyone. Some legal issues may need to be addressed with copyright and other color generating websites but there isn't a copyright on website ideas specifically for generating colours so the issue is averted. Another aspect of social issues may be with email storing and risk of data leaks but the password hashing is made well enough to where leaking passwords and data breaching would be hard to come by.
+I believe the ethicality and legality of the website should not be much of an issue as what it brings in is entirely subjective and it's just a colour palette generator. But problems could be caused with the social aspects of sharing and commenting, so a moderation team needs to be formed if the social aspects of the website actually get made, but for now as the website is inherently closed off to personal use the legality and ethicality of it would not need to be addressed too much. The social aspect on a whole is what the main point of the website is, when going out or needing a set of colours in a place I see a lot of people struggling and using colour palette generators which is why I believe that ColoGen is a positive addition to the social life of everyone, providing a good sense of creativity into everyone. Some legal issues may need to be addressed with copyright and other color generating websites but there isn't a copyright on website ideas specifically for generating colours so the issue is averted. Another aspect of social issues may be with email storing and risk of data leaks but the password hashing is made well enough to where leaking passwords and data breaching would be hard to come by.
+
+
+
+
+
+
 
 
 ## Requirements Evaluation
 In the final project most of the functional requirements have been met, thus completing the total bulk of the project as well as proving its main functionality and aesthetics. But not all the functional requirements were met as the website does not save your palettes if you leave. You can however store one 'starred' palette on your profile which is basically your favourite palette that was either generated or created. This slightly appeals to that requirement. But on the basis of making the website generate colours, this has been done and the website can also deal with 2 - 9 colours allowing for a wide range in colour palettability, fully completing 2 points on the functional requirements. The Non-functional requirements were a bit more scattered as previously mentioned the website can not store previously generated palettes to go back to. But on the accounts of the other 3 non-functional requirements the website is very fast and has minimal lag when flipping through pages, You can also create your own colour palettes with the palette creator mode and I implemented a very basic form of the sharing palettes feature with the profile comments.(These are hard coded but the idea is still there).
 
-## Project Managment
-I believe this project was managed pretty well in its beggining stages as a lot of work was done, setting up the basis of the website and the start of the Project development proccess. The github push proccess shows constant pushes through the month but as time went on throughout the later parts of the proejct the pushes got a lot less frequent as I was mostly doing them on one device and did not need to push through github to transfer to other devices. But coutnering that there still was feasable progress made through the entire project indicating a well managed work of time as a whole. There were lots of encounters where a lot of time was put into a possible feature just for me to scrap it due to lack of skill developing it, so time managment there could have been positive when getting the the more tiem constrained parts of the project.
+
+
+
+## Project Management
+I believe this project was managed pretty well in its beginning stages as a lot of work was done, setting up the basis of the website and the start of the Project development process. The github push process shows constant pushes through the month but as time went on throughout the later parts of the project the pushes got a lot less frequent as I was mostly doing them on one device and did not need to push through github to transfer to other devices. But countering that there still was feasible progress made through the entire project indicating a well managed work of time as a whole. There were lots of encounters where a lot of time was put into a possible feature just for me to scrap it due to lack of skill developing it, so time management there could have been positive when getting the more time constrained parts of the project.
+
+
+
 
 ## Market & Personal Impact
-This project probably won't have a big impact on the target market as it is out preformed by a lot of larger more professionally built websites in the web, but as a whole the process of creating the project taught me alot on the ways of Flask, HTML, Jinja, CSS and javascript. This would likely stay as a small project which is unused by most people just becasue of the low stakes production of the website. But to the people who may use it the usage would probably stay constant with a constant supply in need which may continue to grow as the world gets more modernised and has an increased need for creativity.
+This project probably won't have a big impact on the target market as it is out preformed by a lot of larger more professionally built websites in the web, but as a whole the process of creating the project taught me a lot on the ways of Flask, HTML, Jinja, CSS and javascript. This would likely stay as a small project which is unused by most people just because of the low stakes production of the website. But to the people who may use it the usage would probably stay constant with a constant supply in need which may continue to grow as the world gets more modernised and has an increased need for creativity.
 
 
+
+# How to use
+
+Assuming you have all the flask things installed, it tells you in the miguel grinberg flask mega tutorial
+
+in terminal make the directory 'site'
+
+python -m flask run
