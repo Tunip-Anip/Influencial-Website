@@ -40,6 +40,7 @@ class User(UserMixin,db.Model):
     
     about_me: so.Mapped[Optional[str]] = so.mapped_column(sa.String(140))
     profile: so.Mapped[Optional[str]] = so.mapped_column(sa.String(140))
+    starP: so.Mapped[Optional[str]] = so.mapped_column(sa.String(140))
     last_seen: so.Mapped[Optional[datetime]] = so.mapped_column(
         default=lambda: datetime.now(timezone.utc))
     

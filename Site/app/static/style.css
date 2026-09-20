@@ -21,6 +21,9 @@
 .box{
     height: 1px;
 }
+.buttonc{
+    border-radius: 10%;
+}
 
 .colorgen {
     
@@ -33,9 +36,7 @@
     padding-top: 20px;
     overflow-x: hidden;
     transition: 300ms ease;
-
-
-
+    
 }
 .colorgen:hover{
     
@@ -101,4 +102,49 @@
     clip-path: circle(50%);
     margin-top: 5vh;
     object-fit: cover;
+    margin: 4vw;
+}
+
+.switches{
+    text-align: center;
+    position: relative;
+    top:17vh
+}
+
+.sbase{
+    font-family: cfont;
+    border-radius: 10%;
+    border-color: #d3d3d3;
+    border-style: hidden;
+        
+}
+
+.colpic{
+    height:100%;
+    width: 105%;
+    right: 0.4vh;
+    position: relative;
+    top: -6vh;
+    border-radius: 10%;
+    border-color: #964747;
+
+}
+
+.starp{
+    position:relative;
+    text-align: left;
+    left: 10%;
+    border-radius: 50%;
+    
+}
+
+.star{
+    text-align: left;
+    border-radius: 25%;
+}
+
+body{
+    background-image: url(Icons/Bg.png);
+    background-size: cover;
+
 }
